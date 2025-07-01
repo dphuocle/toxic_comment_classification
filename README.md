@@ -1,3 +1,6 @@
+
+# Toxic Comment Classification with BERT
+
 Built a multi-label classification model to detect harmful content in social media comments using the Jigsaw dataset (~160,000 samples):
 
 * Preprocessed text and fine-tuned bert-base-uncased with a custom classification head
