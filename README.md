@@ -24,14 +24,13 @@ The task is framed as a **multi-label classification problem**, where each comme
 - **Language**: Python
 - **Model**: BERT (via HuggingFace `transformers`)
 - **Frameworks**: PyTorch, scikit-learn
-- **Hardware**: CUDA (NVIDIA GPU), tested on Colab / Kaggle (Tesla P100)
+- **Hardware**: CUDA (NVIDIA GPU)
 
 ## 📂 Dataset
 
 The dataset is provided by Kaggle and contains:
 - `train.csv` – 160k+ labeled comments
 - `test.csv`, `test_labels.csv` – for evaluation
-- `sample_submission.csv` – for Kaggle submission
 
 ## 🚀 Training
 
@@ -44,14 +43,9 @@ Training time (P100 GPU): approx. **30 mins/epoch × 3 = 1.5 hours**
 
 ## 📈 Results
 
-Final evaluation is done on the validation split using:
-- `classification_report` from scikit-learn
-- Per-class precision, recall, and F1-score
+## 👤 Author
 
-## 📌 Future Work
+**LE Doan Phuoc**  
+AI Intern at MS4ALL and CS Student at INSA Centre Val de Loire
 
-- Use DistilBERT for faster training
-- Add early stopping and model checkpointing
-- Deploy as a web app with Streamlit for live toxicity analysis
-
-## 🧠 Author
+🔗 [LinkedIn](https://www.linkedin.com/in/dphuocle/)
